@@ -1,0 +1,400 @@
+html, body *{
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Setting up the grid */
+
+.col.seven:first-child, .col.four:first-child, .col.three:first-child, .col.two:first-child
+{
+margin-left: 0; /* This line makes the left-most column align to the left of the screen */
+}
+
+.col.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+
+.col.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+
+.col.three {
+	width: 24.5%;
+	float:left;
+	padding: 0% 2% 2% 0%;/* This set the separation between everey piece of news in the row;w */
+}
+
+.col.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+}
+
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+
+/* Navigation Bar STARTS */
+
+.navtab ul{
+  margin: 0px;
+  padding-top: 0px;
+  list-style: none;
+  width: 100%;
+}
+
+.navtab ul li{
+  width: 20%;
+  height:50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  float: right;
+  background-color: black;
+  opacity: 0.8;
+  position:relative;
+}
+
+
+.navtab ul li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: 'Lato', sans-serif, Arial, Calibri, Times;
+}
+
+.navtab ul li a:hover{
+  transition:all 0.25s;
+  border-top: 2px solid rgb(179, 22, 22);
+  color: rgb(179, 22, 22);
+}
+
+.navtab ul li ul { /*Drop down menu */
+display: block;
+position:absolute;
+background-color: #fff;
+}
+
+.navtab li:hover ul li{
+display:inline-block;}
+
+.navtab li ul li{
+border-top: 2px solid rgb(208, 134, 24);
+color: rgb(208, 134, 24);
+display:none;
+width: 100%;
+}
+
+/*Elements to display the hamburguer menu */
+
+label{
+  margin:0 0 5% 90%;
+  font-size:250%;
+  line-height: 70px;
+  display:none;
+}
+
+#toggle {
+  display:none;
+}
+
+/* Navigation Bar ENDS */
+
+
+/* Home image */
+
+.hero-image{
+  background-image: url("images/fire1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Latest news images and text*/
+
+.title h1{
+font-family: Times;
+padding-top: 8%;
+font-size: 600%;
+padding-left: 20%;
+color: rgba(211, 211, 217, 0.88);
+}
+.title h2{
+font-family: Calibri, Arial;
+padding-left: 17%;
+color: rgba(211, 211, 217, 0.88);
+font-size: 800%;
+}
+
+#latest h2{
+color: white;
+text-align: center;
+line-height: 250%;
+font-family: 'Lato', sans-serif;
+font-size: 140%;
+}
+
+.row2 .col.two{
+height: 8vh;
+background-color: rgb(190, 21, 36);
+margin-top: 1%;
+}
+
+/* First news column style */
+
+.row4 .col.three{
+height: 50vh;
+}
+
+.row4 .col.three .picnews1{
+background-image:url('images/carburnt.jpg');
+height: 60%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-top: 3px solid rgb(19, 50, 138);
+}
+
+hr{
+  margin-top: 2%;
+}
+
+.row4 .col.three .picnews2{
+background-image:url('images/people.jpg');
+height: 60%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-top: 3px solid rgb(19, 50, 138);
+}
+
+.row4 .col.three .picnews3{
+background-image:url('images/rajoy.jpg');
+height: 60%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-top: 3px solid rgb(19, 50, 138);
+}
+
+.row4 .col.three .picnews4{
+background-image:url('images/demonstration.jpg');
+height: 60%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-top: 3px solid rgb(19, 50, 138);
+}
+
+/* Second news column */
+
+.row5 .col.three{
+height: 50vh;
+}
+
+.row5 .col.three .picnews5{
+background-image:url('images/galery4.jpg');
+height: 60%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-top: 3px solid rgb(19, 50, 138);
+}
+
+.row5 .col.three .picnews6{
+background-image:url('images/portugal.jpg');
+height: 60%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-top: 3px solid rgb(19, 50, 138);
+}
+
+.row5 .col.three .picnews7{
+background-image:url('images/galery5.jpg');
+height: 60%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-top: 3px solid rgb(19, 50, 138);
+}
+
+.row5 .col.three .picnews8{
+background-image:url('images/galery7.jpg');
+height: 60%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+border-top: 3px solid rgb(19, 50, 138);
+}
+
+.text1 h2 a{
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  font-size: 110%;
+}
+
+.text1 h2 a:hover{
+  color: rgb(196, 65, 9);
+}
+
+.text1 h2, p {
+color:black;
+font-family: 'Lato', sans-serif;
+}
+
+.text1 p {
+margin-top: 1%;
+}
+
+
+
+  /*--footer--*/
+
+.row .footer{
+height: 35vh;
+background-color: rgb(43, 43, 43);
+margin-top: 3%;
+}
+
+.row .footer .col.seven{
+  margin-top: 3%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+}
+
+
+.row .footer .col.seven p {
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 80%;
+}
+
+.row .footer .col.four{
+  margin-top: 3%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  padding-left: 17%;
+}
+
+
+.row .footer .col.four p {
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 80%;
+}
+
+/* Style all font awesome icons */
+.social-media{
+  margin-left: 1%;
+}
+
+.fa {
+    padding: 4%;
+    font-size: 150%;
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: rgb(182, 180, 173);
+}
+
+/* Twitter */
+.fa-twitter {
+    color: rgb(182, 180, 173);
+}
+
+/*--responsiveness--*/
+
+@media (max-width: 1025px) { /*--for tablet devices--*/
+.videonews7 iframe{width: 100%;}
+.title h1 {font-size: 580%;}
+.title h2 {font-size: 640%;}
+.col {width: 48.5% !important;}
+.col.three {width: 48.5%;}
+#latest {width: 25% !important;}
+nav .navtab .tabs ul li {width: 100%;}
+.row4 .col.three .picnews1{height: 70%;}
+.row4 .col.three .picnews2{height: 70%;}
+.row4 .col.three .picnews3{height: 70%;}
+.row4 .col.three .picnews4{height: 70%;}
+.row5 .col.three .picnews5{height: 70%;}
+.row5 .col.three .picnews6{height: 70%;}
+.row .footer{height: 65vh;margin-top:8%}
+.row .footer .col.four{margin-top: 3%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  padding-left: 0%;}
+hr{display:none}
+}
+
+@media (max-width: 568px){ /*--for mobile devices--*/
+.col{width: 100% !important;}
+.videonews7 iframe{width: 100%;}
+.title h1 {font-size: 380%;}
+.title h2 {font-size: 440%;}
+.col.three {width: 100%;}
+.row .footer{height: 62vh;}
+.row .footer .col.four{margin-top: 3%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  padding-left: 0%;}
+  .title h1{padding-top: 5%;}
+  .row4 .col.three .picnews1{height: 65%;}
+  .row4 .col.three .picnews2{height: 65%;}
+  .row4 .col.three .picnews3{height: 65%;}
+  .row4 .col.three .picnews4{height: 65%;}
+  .row5 .col.three .picnews5{height: 65%;}
+  .row5 .col.three .picnews6{height: 65%;}
+  .row5 .col.three .videonews7{height: 65%;}
+  .navtab ul li{width: 100%;}
+  label{display:block;
+  cursor:pointer;}
+  .navtab ul li{width: 100%;}
+  .navtab{
+  text-align:center; width:100%;}
+  .navtab{
+  text-align:center; width:100%;
+  display:none;}
+  .navtab li a{
+  display: block;
+  margin: 0;}
+  .navtab li:hover ul li{
+  display:none;}
+
+  #toggle:checked + .navtab{
+    display:block}
+}
