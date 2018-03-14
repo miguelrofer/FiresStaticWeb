@@ -269,7 +269,8 @@ height: 100%;
 background-size: cover;
 }
 
-
+#face1{
+background-image: attr(data-image-src "img/interview1.jpg";}
 
 .picnews1:hover{
   background-size: 120%;
