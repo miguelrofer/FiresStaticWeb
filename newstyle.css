@@ -115,7 +115,7 @@ label{
 /* Home image */
 
 .hero-image{
-  background-image: url("images/fire1.jpg");
+  background-image: url("img/fire1.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -160,7 +160,7 @@ height: 50vh;
 }
 
 .row4 .col.three .picnews1{
-background-image:url('images/carburnt.jpg');
+background-image:url('img/carburnt.jpg');
 height: 60%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -174,7 +174,7 @@ hr{
 }
 
 .row4 .col.three .picnews2{
-background-image:url('images/people.jpg');
+background-image:url('img/people.jpg');
 height: 60%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -184,7 +184,7 @@ border-top: 3px solid rgb(19, 50, 138);
 }
 
 .row4 .col.three .picnews3{
-background-image:url('images/rajoy.jpg');
+background-image:url('img/rajoy.jpg');
 height: 60%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -194,7 +194,7 @@ border-top: 3px solid rgb(19, 50, 138);
 }
 
 .row4 .col.three .picnews4{
-background-image:url('images/demonstration.jpg');
+background-image:url('img/demonstration.jpg');
 height: 60%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -210,7 +210,7 @@ height: 50vh;
 }
 
 .row5 .col.three .picnews5{
-background-image:url('images/galery4.jpg');
+background-image:url('img/galery4.jpg');
 height: 60%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -220,7 +220,7 @@ border-top: 3px solid rgb(19, 50, 138);
 }
 
 .row5 .col.three .picnews6{
-background-image:url('images/portugal.jpg');
+background-image:url('img/portugal.jpg');
 height: 60%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -230,7 +230,7 @@ border-top: 3px solid rgb(19, 50, 138);
 }
 
 .row5 .col.three .picnews7{
-background-image:url('images/galery5.jpg');
+background-image:url('img/galery5.jpg');
 height: 60%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -240,7 +240,7 @@ border-top: 3px solid rgb(19, 50, 138);
 }
 
 .row5 .col.three .picnews8{
-background-image:url('images/galery7.jpg');
+background-image:url('img/galery7.jpg');
 height: 60%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
