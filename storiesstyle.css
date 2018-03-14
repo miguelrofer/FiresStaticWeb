@@ -261,7 +261,7 @@ height: 50vh;
 }
 
 .picnews1{
-background-image:url('images/face1small.jpg');
+background-image:url('img/face1small.jpg');
 height: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -276,7 +276,7 @@ background-size: cover;
 }
 
 .picnews2{
-background-image:url('images/face2small.jpg');
+background-image:url('img/face2small.jpg');
 height: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -289,7 +289,7 @@ background-size: cover;
 }
 
 .picnews3{
-background-image:url('images/face3small.jpg');
+background-image:url('img/face3small.jpg');
 height: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -302,7 +302,7 @@ background-size: cover;
 }
 
 .picnews4{
-background-image:url('images/face4small.jpg');
+background-image:url('img/face4small.jpg');
 height: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -316,7 +316,7 @@ background-size: cover;
 
 
 .picnews5{
-background-image:url('images/face5small.jpg');
+background-image:url('img/face5small.jpg');
 height: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -329,7 +329,7 @@ background-size: cover;
 }
 
 .picnews6{
-background-image:url('images/face6small.jpg');
+background-image:url('img/face6small.jpg');
 height: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -343,7 +343,7 @@ background-size: cover;
 
 
 .picnews7{
-background-image:url('images/face7small.jpg');
+background-image:url('img/face7small.jpg');
 height: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -356,7 +356,7 @@ background-size: cover;
 }
 
 .picnews8{
-background-image:url('images/face8small.jpg');
+background-image:url('img/face8small.jpg');
 height: 100%;
 -webkit-background-size: cover;
 -moz-background-size: cover;
